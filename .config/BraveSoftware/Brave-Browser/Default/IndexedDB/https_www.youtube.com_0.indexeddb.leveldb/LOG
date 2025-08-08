@@ -1,0 +1,46 @@
+2025/08/08-16:27:26.236 3a6 Reusing MANIFEST /home/bjarkiella/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/08/08-16:27:26.236 3a6 Recovering log #38
+2025/08/08-16:27:26.236 3a6 Reusing old log /home/bjarkiella/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000038.log 
+2025/08/08-16:27:58.098 3a7 Level-0 table #43: started
+2025/08/08-16:27:58.121 3a7 Level-0 table #43: 1634532 bytes OK
+2025/08/08-16:27:58.142 3a7 Delete type=0 #38
+2025/08/08-16:29:47.287 3b4 Compacting 1@1 + 1@2 files
+2025/08/08-16:29:47.301 3b4 Generated table #44@1: 351 keys, 53312 bytes
+2025/08/08-16:29:47.301 3b4 Compacted 1@1 + 1@2 files => 53312 bytes
+2025/08/08-16:29:47.323 3b4 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/08/08-16:29:47.323 3b4 Delete type=2 #40
+2025/08/08-16:29:47.323 3b4 Delete type=2 #43
+2025/08/08-17:19:56.470 3a7 Level-0 table #46: started
+2025/08/08-17:19:56.492 3a7 Level-0 table #46: 1723525 bytes OK
+2025/08/08-17:19:56.513 3a7 Delete type=0 #42
+2025/08/08-17:20:01.171 3a7 Compacting 1@1 + 1@2 files
+2025/08/08-17:20:01.181 3a7 Generated table #47@1: 379 keys, 52453 bytes
+2025/08/08-17:20:01.181 3a7 Compacted 1@1 + 1@2 files => 52453 bytes
+2025/08/08-17:20:01.201 3a7 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/08/08-17:20:01.202 3a7 Delete type=2 #44
+2025/08/08-17:20:01.202 3a7 Delete type=2 #46
+2025/08/08-17:27:34.766 3a7 Level-0 table #49: started
+2025/08/08-17:27:34.790 3a7 Level-0 table #49: 1419274 bytes OK
+2025/08/08-17:27:34.810 3a7 Delete type=0 #45
+2025/08/08-17:28:38.174 3a8 Compacting 1@1 + 1@2 files
+2025/08/08-17:28:38.188 3a8 Generated table #50@1: 419 keys, 100477 bytes
+2025/08/08-17:28:38.188 3a8 Compacted 1@1 + 1@2 files => 100477 bytes
+2025/08/08-17:28:38.203 3a8 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/08/08-17:28:38.203 3a8 Delete type=2 #47
+2025/08/08-17:28:38.203 3a8 Delete type=2 #49
+2025/08/08-18:07:36.163 3a7 Level-0 table #52: started
+2025/08/08-18:07:36.188 3a7 Level-0 table #52: 1720223 bytes OK
+2025/08/08-18:07:36.208 3a7 Delete type=0 #48
+2025/08/08-20:38:09.213 3a7 Compacting 1@1 + 1@2 files
+2025/08/08-20:38:09.223 3a7 Generated table #53@1: 436 keys, 54239 bytes
+2025/08/08-20:38:09.223 3a7 Compacted 1@1 + 1@2 files => 54239 bytes
+2025/08/08-20:38:09.245 3a7 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/08/08-20:38:09.245 3a7 Delete type=2 #50
+2025/08/08-20:38:09.245 3a7 Delete type=2 #52
+2025/08/08-21:04:16.244 3a7 Level-0 table #55: started
+2025/08/08-21:04:16.269 3a7 Level-0 table #55: 1981052 bytes OK
+2025/08/08-21:04:16.289 3a7 Delete type=0 #51
+2025/08/08-21:09:36.172 3a6 Compacting 1@1 + 1@2 files
+2025/08/08-21:09:36.189 3a6 Generated table #56@1: 471 keys, 53989 bytes
+2025/08/08-21:09:36.190 3a6 Compacted 1@1 + 1@2 files => 53989 bytes
+2025/08/08-21:09:36.205 3a6 compacted to: files[ 0 0 1 0 0 0 0 ]

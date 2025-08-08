@@ -1,0 +1,39 @@
+2025/08/08-16:27:16.040 4 Reusing MANIFEST /home/bjarkiella/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/MANIFEST-000001
+2025/08/08-16:27:16.048 4 Recovering log #10
+2025/08/08-16:27:16.049 4 Reusing old log /home/bjarkiella/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/000010.log 
+2025/08/08-16:50:06.891 5 Level-0 table #14: started
+2025/08/08-16:50:06.904 5 Level-0 table #14: 26879 bytes OK
+2025/08/08-16:50:06.921 5 Delete type=0 #10
+2025/08/08-17:05:28.872 5 Level-0 table #16: started
+2025/08/08-17:05:28.885 5 Level-0 table #16: 19645 bytes OK
+2025/08/08-17:05:28.900 5 Delete type=0 #13
+2025/08/08-17:05:28.901 5 Compacting 4@0 + 1@1 files
+2025/08/08-17:05:28.915 5 Generated table #17@0: 97 keys, 63622 bytes
+2025/08/08-17:05:28.915 5 Compacted 4@0 + 1@1 files => 63622 bytes
+2025/08/08-17:05:28.934 5 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/08/08-17:05:28.935 5 Delete type=2 #7
+2025/08/08-17:05:28.935 5 Delete type=2 #9
+2025/08/08-17:05:28.935 5 Delete type=2 #11
+2025/08/08-17:05:28.935 5 Delete type=2 #14
+2025/08/08-17:05:28.935 5 Delete type=2 #16
+2025/08/08-18:00:29.496 5 Level-0 table #19: started
+2025/08/08-18:00:29.508 5 Level-0 table #19: 14500 bytes OK
+2025/08/08-18:00:29.524 5 Delete type=0 #15
+2025/08/08-20:49:08.732 5 Level-0 table #21: started
+2025/08/08-20:49:08.743 5 Level-0 table #21: 20086 bytes OK
+2025/08/08-20:49:08.764 5 Delete type=0 #18
+2025/08/08-21:00:43.162 5 Level-0 table #23: started
+2025/08/08-21:00:43.176 5 Level-0 table #23: 17508 bytes OK
+2025/08/08-21:00:43.200 5 Delete type=0 #20
+2025/08/08-21:21:32.910 5 Level-0 table #25: started
+2025/08/08-21:21:32.919 5 Level-0 table #25: 18802 bytes OK
+2025/08/08-21:21:32.944 5 Delete type=0 #22
+2025/08/08-21:21:32.945 5 Compacting 4@0 + 1@1 files
+2025/08/08-21:21:32.955 5 Generated table #26@0: 175 keys, 69985 bytes
+2025/08/08-21:21:32.955 5 Compacted 4@0 + 1@1 files => 69985 bytes
+2025/08/08-21:21:32.975 5 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/08/08-21:21:32.976 5 Delete type=2 #17
+2025/08/08-21:21:32.976 5 Delete type=2 #19
+2025/08/08-21:21:32.977 5 Delete type=2 #21
+2025/08/08-21:21:32.977 5 Delete type=2 #23
+2025/08/08-21:21:32.977 5 Delete type=2 #25

@@ -1,0 +1,82 @@
+@define-color bg #282828;
+@define-color fg #ebdbb2;
+@define-color faded #a89984;
+@define-color red #cc241d;
+@define-color green #98971a;
+@define-color yellow #d79921;
+@define-color blue #458588;
+@define-color purple #b16286;
+@define-color aqua #689d6a;
+@define-color orange #d65d0e;
+
+* {
+  border: none;
+  border-radius: 0;
+  min-height: 0;
+  padding: 0;
+  margin: 0;
+  font-family: "CaskaydiaCove Nerd Font Mono", monospace;
+  font-size: 20px;
+  font-weight: normal;
+}
+
+/* Whole bar */
+#waybar {
+  background: @bg;
+  color: @fg;
+}
+
+/* Workspace buttons */
+#workspaces button {
+  padding: 0.4em 0.7em;
+  background: transparent;
+  color: @faded;
+}
+#workspaces button.active {
+  background: @blue;
+  color: @bg;
+}
+#workspaces button.urgent {
+  background: @red;
+  color: @bg;
+}
+
+/* Modules (general) */
+#clock,
+#battery,
+#cpu,
+#memory,
+#network,
+#pulseaudio,
+#tray,
+#backlight,
+#custom-media,
+#idle_inhibitor,
+#custom-power,
+#language,
+#temperature {
+  padding: 0.4em 0.8em;
+  color: @fg;
+}
+
+/* Battery levels */
+#battery.warning {
+  color: @yellow;
+}
+#battery.critical {
+  color: @red;
+}
+
+/* Audio muted */
+#pulseaudio.muted {
+  color: @red;
+}
+
+/* Media player states */
+#custom-media.paused {
+  color: @faded;
+}
+#custom-media.playing {
+  color: @fg;
+}
+
