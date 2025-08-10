@@ -1,6 +1,0 @@
-2025/08/08-16:27:16.318 3a7 Reusing MANIFEST /home/bjarkiella/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
-2025/08/08-16:27:16.318 3a7 Recovering log #4
-2025/08/08-16:27:16.322 3a7 Reusing old log /home/bjarkiella/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/000004.log 
-2025/08/08-16:27:32.402 3a6 Level-0 table #8: started
-2025/08/08-16:27:32.437 3a6 Level-0 table #8: 3193104 bytes OK
-2025/08/08-16:27:32.453 3a6 Delete type=0 #4
