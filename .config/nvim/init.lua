@@ -62,6 +62,10 @@ require("lazy").setup({
 	},
 })
 
+-- Bumping up lsp highlighting
+vim.highlight.priorities.semantic_tokens = 200
+vim.highlight.priorities.treesitter = 100
+
 -- Function to check if a file exists
 local function file_exists(file)
 	local f = io.open(file, "r")

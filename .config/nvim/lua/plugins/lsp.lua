@@ -2,11 +2,17 @@ return {
 	"neovim/nvim-lspconfig",
 	dependencies = {
 		-- Automatically install LSPs and related tools to stdpath for Neovim
-		{ "mason-org/mason.nvim", config = true }, -- NOTE: Must be loaded before dependants
-		-- mason-lspconfig:
-		-- - Bridges the gap between LSP config names (e.g. "lua_ls") and actual Mason package names (e.g. "lua-language-server").
-		-- - Used here only to allow specifying language servers by their LSP name (like "lua_ls") in `ensure_installed`.
-		-- - It does not auto-configure servers — we use vim.lsp.config() + vim.lsp.enable() explicitly for full control.
+		{
+			"mason-org/mason.nvim", -- NOTE: Must be loaded before dependants
+			opts = {
+				registries = {
+					"github:mason-org/mason-registry",
+					"github:Crashdummyy/mason-registry",
+				},
+			},
+		},
+		{ "seblyng/roslyn.nvim", opts = { broad_search = true } }, -- enables :Roslyn commands + Mason cmd autowiring
+
 		"mason-org/mason-lspconfig.nvim",
 		-- mason-tool-installer:
 		-- - Installs LSPs, linters, formatters, etc. by their Mason package name.
@@ -201,8 +207,9 @@ return {
 			--dockerls = {},
 			--docker_compose_language_service = {},
 			-- omnisharp = {},
-			csharp_ls = {},
-			csharpier = {},
+			--csharp_ls = {},
+			-- csharpier = {},
+			roslyn = {},
 			-- tailwindcss = {},
 			-- graphql = {},
 			--html = { filetypes = { "html", "twig", "hbs" } },
@@ -215,6 +222,8 @@ return {
 		local ensure_installed = vim.tbl_keys(servers or {})
 		vim.list_extend(ensure_installed, {
 			"stylua", -- Used to format Lua code
+			"roslyn",
+			"csharpier",
 		})
 		require("mason-tool-installer").setup({ ensure_installed = ensure_installed })
 

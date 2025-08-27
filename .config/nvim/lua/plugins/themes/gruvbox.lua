@@ -28,5 +28,15 @@ return {
 			transparent_mode = false,
 		})
 		vim.cmd("colorscheme gruvbox")
+		-- Apply code colors now + whenever the scheme changes
+		local ok, colors = pcall(require, "plugins.themes.colors")
+		if ok then
+			colors.apply()
+			vim.api.nvim_create_autocmd("ColorScheme", {
+				callback = function()
+					pcall(colors.apply)
+				end,
+			})
+		end
 	end,
 }

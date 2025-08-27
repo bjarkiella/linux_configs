@@ -16,13 +16,11 @@ return {
 				"vimdoc",
 				"vim",
 				"regex",
-				"terraform",
 				"sql",
 				"dockerfile",
 				"toml",
 				"json",
 				"java",
-				"groovy",
 				"go",
 				"gitignore",
 				"graphql",
@@ -98,10 +96,10 @@ return {
 			},
 		})
 
-		-- Register additional file extensions
-		vim.filetype.add({ extension = { tf = "terraform" } })
-		vim.filetype.add({ extension = { tfvars = "terraform" } })
-		vim.filetype.add({ extension = { pipeline = "groovy" } })
-		vim.filetype.add({ extension = { multibranch = "groovy" } })
+		-- -- Register additional file extensions
+		-- vim.filetype.add({ extension = { tf = "terraform" } })
+		-- vim.filetype.add({ extension = { tfvars = "terraform" } })
+		-- vim.filetype.add({ extension = { pipeline = "groovy" } })
+		-- vim.filetype.add({ extension = { multibranch = "groovy" } })
 	end,
 }
